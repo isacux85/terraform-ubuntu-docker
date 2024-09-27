@@ -18,7 +18,7 @@ resource "cloudstack_instance" "ubuntuinstance" {
   zone = var.cloud-tu-nube["zone_name"]
   network_id = var.cloud-tu-nube["network_id"]
   expunge = true
-  keypair = "nombre-tus-keys" # creadas previamente
+  keypair = "nombre-tus-keys" # creadas previamente en tu nube
   root_disk_size   = 20
   user_data = file("script.sh")
 }
