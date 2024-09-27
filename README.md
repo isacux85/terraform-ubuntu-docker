@@ -7,7 +7,7 @@ https://developer.hashicorp.com/terraform/tutorials/docker-get-started/install-c
 
 Tener las credenciales con los permisos necesarios para acceder a la api de la nube.
 
-Clonar proyecto, abrirlo por ejemplo con vscode y ejecutar lso comandos de terraform:
+Clonar proyecto, abrirlo por ejemplo con vscode y ejecutar los comandos de terraform:
 - terraform init
 - terraform plan
 - terraform apply
